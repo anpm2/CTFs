@@ -1,0 +1,1958 @@
+  0           0 RESUME                   0
+
+  1           2 LOAD_CONST               0 (0)
+              4 LOAD_CONST               1 (('exit',))
+              6 IMPORT_NAME              0 (sys)
+              8 IMPORT_FROM              1 (exit)
+             10 STORE_NAME               1 (exit)
+             12 POP_TOP
+
+  2          14 PUSH_NULL
+             16 LOAD_BUILD_CLASS
+             18 LOAD_CONST               2 (<code object S at 0x7f57bed58030, file "proc.py", line 2>)
+             20 MAKE_FUNCTION            0
+             22 LOAD_CONST               3 ('S')
+             24 PRECALL                  2
+             28 CALL                     2
+             38 STORE_NAME               2 (S)
+
+ 18          40 LOAD_CONST               4 ('zero')
+             42 LOAD_CONST               5 (1)
+
+ 17          44 BUILD_MAP                1
+             46 STORE_NAME               3 (FM)
+
+ 20          48 PUSH_NULL
+             50 LOAD_BUILD_CLASS
+             52 LOAD_CONST               6 (<code object R at 0x7f57bed5b130, file "proc.py", line 20>)
+             54 MAKE_FUNCTION            0
+             56 LOAD_CONST               7 ('R')
+             58 PRECALL                  2
+             62 CALL                     2
+             72 STORE_NAME               4 (R)
+
+ 62          74 LOAD_CONST               8 (<code object m at 0x56263f6d9ae0, file "proc.py", line 62>)
+             76 MAKE_FUNCTION            0
+             78 STORE_NAME               5 (m)
+
+ 77          80 LOAD_CONST               9 (<code object sh at 0x56263f6ef6e0, file "proc.py", line 77>)
+             82 MAKE_FUNCTION            0
+             84 STORE_NAME               6 (sh)
+
+ 89          86 LOAD_CONST              10 (<code object p at 0x56263f689780, file "proc.py", line 89>)
+             88 MAKE_FUNCTION            0
+             90 STORE_NAME               7 (p)
+
+ 98          92 LOAD_CONST              11 (<code object a at 0x56263f6d8fb0, file "proc.py", line 98>)
+             94 MAKE_FUNCTION            0
+             96 STORE_NAME               8 (a)
+
+115          98 LOAD_CONST              12 (<code object b at 0x56263f6d9560, file "proc.py", line 115>)
+            100 MAKE_FUNCTION            0
+            102 STORE_NAME               9 (b)
+
+132         104 LOAD_CONST              13 (<code object z at 0x56263f6c6210, file "proc.py", line 132>)
+            106 MAKE_FUNCTION            0
+            108 STORE_NAME              10 (z)
+
+148         110 LOAD_CONST              14 (<code object c at 0x56263f6f9c30, file "proc.py", line 148>)
+            112 MAKE_FUNCTION            0
+            114 STORE_NAME              11 (c)
+
+166         116 LOAD_CONST              15 (<code object _exit at 0x7f57bed5b2f0, file "proc.py", line 166>)
+            118 MAKE_FUNCTION            0
+            120 STORE_NAME              12 (_exit)
+
+169         122 LOAD_NAME                5 (m)
+
+170         124 LOAD_NAME                6 (sh)
+
+171         126 LOAD_NAME                7 (p)
+
+172         128 LOAD_NAME                8 (a)
+
+173         130 LOAD_NAME                9 (b)
+
+174         132 LOAD_NAME               11 (c)
+
+175         134 LOAD_NAME               10 (z)
+
+176         136 LOAD_NAME               12 (_exit)
+
+168         138 BUILD_TUPLE              8
+            140 STORE_NAME              13 (ino)
+
+177         142 PUSH_NULL
+            144 LOAD_BUILD_CLASS
+            146 LOAD_CONST              16 (<code object V at 0x7f57bed5b3d0, file "proc.py", line 177>)
+            148 MAKE_FUNCTION            0
+            150 LOAD_CONST              17 ('V')
+            152 PRECALL                  2
+            156 CALL                     2
+            166 STORE_NAME              14 (V)
+
+205         168 PUSH_NULL
+            170 LOAD_NAME               15 (input)
+            172 LOAD_CONST              18 ('Enter Flag: ')
+            174 PRECALL                  1
+            178 CALL                     1
+            188 STORE_NAME              16 (ip)
+
+206         190 PUSH_NULL
+            192 LOAD_NAME               14 (V)
+            194 PRECALL                  0
+            198 CALL                     0
+            208 STORE_NAME              17 (v)
+
+207         210 NOP
+
+208         212 LOAD_NAME               17 (v)
+            214 LOAD_METHOD             18 (x)
+            236 LOAD_NAME               16 (ip)
+            238 PRECALL                  1
+            242 CALL                     1
+            252 POP_TOP
+            254 LOAD_CONST              19 (None)
+            256 RETURN_VALUE
+        >>  258 PUSH_EXC_INFO
+
+209         260 POP_TOP
+
+210         262 PUSH_NULL
+            264 LOAD_NAME                1 (exit)
+            266 LOAD_CONST               0 (0)
+            268 PRECALL                  1
+            272 CALL                     1
+            282 POP_TOP
+            284 POP_EXCEPT
+            286 LOAD_CONST              19 (None)
+            288 RETURN_VALUE
+        >>  290 COPY                     3
+            292 POP_EXCEPT
+            294 RERAISE                  1
+ExceptionTable:
+  212 to 252 -> 258 [0]
+  258 to 282 -> 290 [1] lasti
+
+Disassembly of <code object S at 0x7f57bed58030, file "proc.py", line 2>:
+  2           0 RESUME                   0
+              2 LOAD_NAME                0 (__name__)
+              4 STORE_NAME               1 (__module__)
+              6 LOAD_CONST               0 ('S')
+              8 STORE_NAME               2 (__qualname__)
+
+  3          10 LOAD_CONST               7 ((4294967295,))
+             12 LOAD_CONST               2 (<code object __init__ at 0x7f57beef76d0, file "proc.py", line 3>)
+             14 MAKE_FUNCTION            1 (defaults)
+             16 STORE_NAME               3 (__init__)
+
+  7          18 LOAD_CONST               3 (<code object sh at 0x7f57beed48f0, file "proc.py", line 7>)
+             20 MAKE_FUNCTION            0
+             22 STORE_NAME               4 (sh)
+
+ 11          24 LOAD_CONST               4 (<code object p at 0x7f57beed5f70, file "proc.py", line 11>)
+             26 MAKE_FUNCTION            0
+             28 STORE_NAME               5 (p)
+
+ 15          30 LOAD_CONST               5 (<code object ud at 0x7f57bed21890, file "proc.py", line 15>)
+             32 MAKE_FUNCTION            0
+             34 STORE_NAME               6 (ud)
+             36 LOAD_CONST               6 (None)
+             38 RETURN_VALUE
+
+Disassembly of <code object __init__ at 0x7f57beef76d0, file "proc.py", line 3>:
+  3           0 RESUME                   0
+
+  4           2 LOAD_GLOBAL              1 (NULL + list)
+             14 PRECALL                  0
+             18 CALL                     0
+             28 LOAD_FAST                0 (self)
+             30 STORE_ATTR               1 (s)
+
+  5          40 LOAD_FAST                1 (ms)
+             42 LOAD_FAST                0 (self)
+             44 STORE_ATTR               2 (ms)
+
+  6          54 LOAD_GLOBAL              7 (NULL + len)
+             66 LOAD_FAST                0 (self)
+             68 LOAD_ATTR                1 (s)
+             78 PRECALL                  1
+             82 CALL                     1
+             92 LOAD_FAST                0 (self)
+             94 STORE_ATTR               4 (size)
+            104 LOAD_CONST               0 (None)
+            106 RETURN_VALUE
+
+Disassembly of <code object sh at 0x7f57beed48f0, file "proc.py", line 7>:
+  7           0 RESUME                   0
+
+  8           2 LOAD_FAST                0 (self)
+              4 LOAD_ATTR                0 (size)
+             14 LOAD_FAST                0 (self)
+             16 LOAD_ATTR                1 (ms)
+             26 COMPARE_OP               0 (<)
+             32 POP_JUMP_FORWARD_IF_FALSE    48 (to 130)
+
+  9          34 LOAD_FAST                0 (self)
+             36 LOAD_ATTR                2 (s)
+             46 LOAD_METHOD              3 (append)
+             68 LOAD_FAST                1 (ue)
+             70 PRECALL                  1
+             74 CALL                     1
+             84 POP_TOP
+
+ 10          86 LOAD_FAST                0 (self)
+             88 LOAD_METHOD              4 (ud)
+            110 PRECALL                  0
+            114 CALL                     0
+            124 POP_TOP
+            126 LOAD_CONST               0 (None)
+            128 RETURN_VALUE
+
+  8     >>  130 LOAD_CONST               0 (None)
+            132 RETURN_VALUE
+
+Disassembly of <code object p at 0x7f57beed5f70, file "proc.py", line 11>:
+ 11           0 RESUME                   0
+
+ 12           2 LOAD_FAST                0 (self)
+              4 LOAD_ATTR                0 (size)
+             14 LOAD_CONST               1 (0)
+             16 COMPARE_OP               4 (>)
+             22 POP_JUMP_FORWARD_IF_FALSE    47 (to 118)
+
+ 13          24 LOAD_FAST                0 (self)
+             26 LOAD_ATTR                1 (s)
+             36 LOAD_METHOD              2 (pop)
+             58 PRECALL                  0
+             62 CALL                     0
+             72 POP_TOP
+
+ 14          74 LOAD_FAST                0 (self)
+             76 LOAD_METHOD              3 (ud)
+             98 PRECALL                  0
+            102 CALL                     0
+            112 POP_TOP
+            114 LOAD_CONST               0 (None)
+            116 RETURN_VALUE
+
+ 12     >>  118 LOAD_CONST               0 (None)
+            120 RETURN_VALUE
+
+Disassembly of <code object ud at 0x7f57bed21890, file "proc.py", line 15>:
+ 15           0 RESUME                   0
+
+ 16           2 LOAD_GLOBAL              1 (NULL + len)
+             14 LOAD_FAST                0 (self)
+             16 LOAD_ATTR                1 (s)
+             26 PRECALL                  1
+             30 CALL                     1
+             40 LOAD_FAST                0 (self)
+             42 STORE_ATTR               2 (size)
+             52 LOAD_CONST               0 (None)
+             54 RETURN_VALUE
+
+Disassembly of <code object R at 0x7f57bed5b130, file "proc.py", line 20>:
+ 20           0 RESUME                   0
+              2 LOAD_NAME                0 (__name__)
+              4 STORE_NAME               1 (__module__)
+              6 LOAD_CONST               0 ('R')
+              8 STORE_NAME               2 (__qualname__)
+
+ 21          10 LOAD_CONST               1 (<code object __init__ at 0x7f57beef2250, file "proc.py", line 21>)
+             12 MAKE_FUNCTION            0
+             14 STORE_NAME               3 (__init__)
+
+ 32          16 LOAD_CONST               2 (<code object gt at 0x7f57beef7800, file "proc.py", line 32>)
+             18 MAKE_FUNCTION            0
+             20 STORE_NAME               4 (gt)
+
+ 42          22 LOAD_CONST               3 (<code object st at 0x7f57bee74bb0, file "proc.py", line 42>)
+             24 MAKE_FUNCTION            0
+             26 STORE_NAME               5 (st)
+
+ 56          28 LOAD_CONST               4 (<code object sfz at 0x7f57bee75cf0, file "proc.py", line 56>)
+             30 MAKE_FUNCTION            0
+             32 STORE_NAME               6 (sfz)
+             34 LOAD_CONST               5 (None)
+             36 RETURN_VALUE
+
+Disassembly of <code object __init__ at 0x7f57beef2250, file "proc.py", line 21>:
+ 21           0 RESUME                   0
+
+ 22           2 LOAD_CONST               1 (0)
+              4 LOAD_FAST                0 (self)
+              6 STORE_ATTR               0 (_1)
+
+ 23          16 LOAD_CONST               1 (0)
+             18 LOAD_FAST                0 (self)
+             20 STORE_ATTR               1 (_2)
+
+ 24          30 LOAD_CONST               1 (0)
+             32 LOAD_FAST                0 (self)
+             34 STORE_ATTR               2 (_3)
+
+ 25          44 LOAD_CONST               1 (0)
+             46 LOAD_FAST                0 (self)
+             48 STORE_ATTR               3 (_4)
+
+ 27          58 LOAD_FAST                0 (self)
+             60 LOAD_ATTR                0 (_1)
+
+ 28          70 LOAD_FAST                0 (self)
+             72 LOAD_ATTR                1 (_2)
+
+ 29          82 LOAD_FAST                0 (self)
+             84 LOAD_ATTR                2 (_3)
+
+ 30          94 LOAD_FAST                0 (self)
+             96 LOAD_ATTR                3 (_4)
+
+ 26         106 BUILD_TUPLE              4
+            108 LOAD_FAST                0 (self)
+            110 STORE_ATTR               4 (r)
+
+ 31         120 LOAD_CONST               1 (0)
+            122 LOAD_FAST                0 (self)
+            124 STORE_ATTR               5 (fs)
+            134 LOAD_CONST               0 (None)
+            136 RETURN_VALUE
+
+Disassembly of <code object gt at 0x7f57beef7800, file "proc.py", line 32>:
+ 32           0 RESUME                   0
+
+ 33           2 LOAD_FAST                1 (ix)
+              4 LOAD_CONST               1 (0)
+              6 COMPARE_OP               2 (==)
+             12 POP_JUMP_FORWARD_IF_FALSE     8 (to 30)
+
+ 34          14 LOAD_FAST                0 (self)
+             16 LOAD_ATTR                0 (_1)
+             26 STORE_FAST               2 (ue)
+             28 JUMP_FORWARD            41 (to 112)
+
+ 35     >>   30 LOAD_FAST                1 (ix)
+             32 LOAD_CONST               2 (1)
+             34 COMPARE_OP               2 (==)
+             40 POP_JUMP_FORWARD_IF_FALSE     8 (to 58)
+
+ 36          42 LOAD_FAST                0 (self)
+             44 LOAD_ATTR                1 (_2)
+             54 STORE_FAST               2 (ue)
+             56 JUMP_FORWARD            27 (to 112)
+
+ 37     >>   58 LOAD_FAST                1 (ix)
+             60 LOAD_CONST               3 (2)
+             62 COMPARE_OP               2 (==)
+             68 POP_JUMP_FORWARD_IF_FALSE     8 (to 86)
+
+ 38          70 LOAD_FAST                0 (self)
+             72 LOAD_ATTR                2 (_3)
+             82 STORE_FAST               2 (ue)
+             84 JUMP_FORWARD            13 (to 112)
+
+ 39     >>   86 LOAD_FAST                1 (ix)
+             88 LOAD_CONST               4 (3)
+             90 COMPARE_OP               2 (==)
+             96 POP_JUMP_FORWARD_IF_FALSE     7 (to 112)
+
+ 40          98 LOAD_FAST                0 (self)
+            100 LOAD_ATTR                3 (_4)
+            110 STORE_FAST               2 (ue)
+
+ 41     >>  112 LOAD_FAST                2 (ue)
+            114 RETURN_VALUE
+
+Disassembly of <code object st at 0x7f57bee74bb0, file "proc.py", line 42>:
+ 42           0 RESUME                   0
+
+ 43           2 LOAD_FAST                1 (ix)
+              4 LOAD_CONST               1 (0)
+              6 COMPARE_OP               2 (==)
+             12 POP_JUMP_FORWARD_IF_FALSE     8 (to 30)
+
+ 44          14 LOAD_FAST                2 (ue)
+             16 LOAD_FAST                0 (self)
+             18 STORE_ATTR               0 (_1)
+             28 JUMP_FORWARD            41 (to 112)
+
+ 45     >>   30 LOAD_FAST                1 (ix)
+             32 LOAD_CONST               2 (1)
+             34 COMPARE_OP               2 (==)
+             40 POP_JUMP_FORWARD_IF_FALSE     8 (to 58)
+
+ 46          42 LOAD_FAST                2 (ue)
+             44 LOAD_FAST                0 (self)
+             46 STORE_ATTR               1 (_2)
+             56 JUMP_FORWARD            27 (to 112)
+
+ 47     >>   58 LOAD_FAST                1 (ix)
+             60 LOAD_CONST               3 (2)
+             62 COMPARE_OP               2 (==)
+             68 POP_JUMP_FORWARD_IF_FALSE     8 (to 86)
+
+ 48          70 LOAD_FAST                2 (ue)
+             72 LOAD_FAST                0 (self)
+             74 STORE_ATTR               2 (_3)
+             84 JUMP_FORWARD            13 (to 112)
+
+ 49     >>   86 LOAD_FAST                1 (ix)
+             88 LOAD_CONST               4 (3)
+             90 COMPARE_OP               2 (==)
+             96 POP_JUMP_FORWARD_IF_FALSE     7 (to 112)
+
+ 50          98 LOAD_FAST                2 (ue)
+            100 LOAD_FAST                0 (self)
+            102 STORE_ATTR               3 (_4)
+
+ 52     >>  112 LOAD_FAST                0 (self)
+            114 LOAD_ATTR                0 (_1)
+
+ 53         124 LOAD_FAST                0 (self)
+            126 LOAD_ATTR                1 (_2)
+
+ 54         136 LOAD_FAST                0 (self)
+            138 LOAD_ATTR                2 (_3)
+
+ 55         148 LOAD_FAST                0 (self)
+            150 LOAD_ATTR                3 (_4)
+
+ 51         160 BUILD_TUPLE              4
+            162 LOAD_FAST                0 (self)
+            164 STORE_ATTR               4 (r)
+            174 LOAD_CONST               0 (None)
+            176 RETURN_VALUE
+
+Disassembly of <code object sfz at 0x7f57bee75cf0, file "proc.py", line 56>:
+ 56           0 RESUME                   0
+
+ 57           2 LOAD_FAST                1 (ue)
+              4 LOAD_CONST               1 (True)
+              6 COMPARE_OP               2 (==)
+             12 POP_JUMP_FORWARD_IF_FALSE    29 (to 72)
+
+ 58          14 LOAD_FAST                0 (self)
+             16 COPY                     1
+             18 LOAD_ATTR                0 (fs)
+             28 LOAD_GLOBAL              2 (FM)
+             40 LOAD_CONST               2 ('zero')
+             42 BINARY_SUBSCR
+             52 BINARY_OP               20 (|=)
+             56 SWAP                     2
+             58 STORE_ATTR               0 (fs)
+             68 LOAD_CONST               0 (None)
+             70 RETURN_VALUE
+
+ 60     >>   72 LOAD_FAST                0 (self)
+             74 COPY                     1
+             76 LOAD_ATTR                0 (fs)
+             86 LOAD_GLOBAL              2 (FM)
+             98 LOAD_CONST               2 ('zero')
+            100 BINARY_SUBSCR
+            110 BINARY_OP               20 (|=)
+            114 SWAP                     2
+            116 STORE_ATTR               0 (fs)
+
+ 61         126 LOAD_FAST                0 (self)
+            128 COPY                     1
+            130 LOAD_ATTR                0 (fs)
+            140 LOAD_GLOBAL              2 (FM)
+            152 LOAD_CONST               2 ('zero')
+            154 BINARY_SUBSCR
+            164 BINARY_OP               25 (^=)
+            168 SWAP                     2
+            170 STORE_ATTR               0 (fs)
+            180 LOAD_CONST               0 (None)
+            182 RETURN_VALUE
+
+Disassembly of <code object m at 0x56263f6d9ae0, file "proc.py", line 62>:
+ 62           0 RESUME                   0
+
+ 63           2 LOAD_FAST                1 (o)
+              4 LOAD_FAST                0 (v)
+              6 LOAD_ATTR                0 (sz)
+             16 LOAD_CONST               1 (2)
+             18 BINARY_OP               10 (-)
+             22 LOAD_CONST               2 (4)
+             24 BINARY_OP                5 (*)
+             28 BINARY_OP                9 (>>)
+             32 LOAD_CONST               3 (15)
+             34 BINARY_OP                1 (&)
+             38 STORE_FAST               2 (tg)
+
+ 64          40 LOAD_FAST                2 (tg)
+             42 LOAD_CONST               4 (0)
+             44 COMPARE_OP               0 (<)
+             50 POP_JUMP_FORWARD_IF_TRUE    29 (to 110)
+             52 LOAD_FAST                2 (tg)
+             54 LOAD_GLOBAL              3 (NULL + len)
+             66 LOAD_FAST                0 (v)
+             68 LOAD_ATTR                2 (r)
+             78 LOAD_ATTR                2 (r)
+             88 PRECALL                  1
+             92 CALL                     1
+            102 COMPARE_OP               5 (>=)
+            108 POP_JUMP_FORWARD_IF_FALSE    15 (to 140)
+
+ 65     >>  110 LOAD_GLOBAL              7 (NULL + exit)
+            122 LOAD_CONST               4 (0)
+            124 PRECALL                  1
+            128 CALL                     1
+            138 POP_TOP
+
+ 66     >>  140 LOAD_FAST                1 (o)
+            142 LOAD_FAST                0 (v)
+            144 LOAD_ATTR                0 (sz)
+            154 LOAD_CONST               5 (3)
+            156 BINARY_OP               10 (-)
+            160 LOAD_CONST               2 (4)
+            162 BINARY_OP                5 (*)
+            166 BINARY_OP                9 (>>)
+            170 LOAD_CONST               3 (15)
+            172 BINARY_OP                1 (&)
+            176 STORE_FAST               3 (ir)
+
+ 67         178 LOAD_FAST                3 (ir)
+            180 LOAD_CONST               4 (0)
+            182 COMPARE_OP               2 (==)
+            188 POP_JUMP_FORWARD_IF_FALSE    20 (to 230)
+
+ 68         190 LOAD_FAST                1 (o)
+            192 LOAD_CONST               6 (16)
+            194 LOAD_FAST                0 (v)
+            196 LOAD_ATTR                0 (sz)
+            206 LOAD_CONST               5 (3)
+            208 BINARY_OP               10 (-)
+            212 BINARY_OP                8 (**)
+            216 LOAD_CONST               7 (1)
+            218 BINARY_OP               10 (-)
+            222 BINARY_OP                1 (&)
+            226 STORE_FAST               4 (ue)
+            228 JUMP_FORWARD           129 (to 488)
+
+ 69     >>  230 LOAD_FAST                3 (ir)
+            232 LOAD_CONST               7 (1)
+            234 COMPARE_OP               2 (==)
+            240 POP_JUMP_FORWARD_IF_FALSE    96 (to 434)
+
+ 70         242 LOAD_FAST                1 (o)
+            244 LOAD_FAST                0 (v)
+            246 LOAD_ATTR                0 (sz)
+            256 LOAD_CONST               2 (4)
+            258 BINARY_OP               10 (-)
+            262 LOAD_CONST               2 (4)
+            264 BINARY_OP                5 (*)
+            268 BINARY_OP                9 (>>)
+            272 LOAD_CONST               3 (15)
+            274 BINARY_OP                1 (&)
+            278 STORE_FAST               5 (ix)
+
+ 71         280 LOAD_FAST                5 (ix)
+            282 LOAD_CONST               4 (0)
+            284 COMPARE_OP               0 (<)
+            290 POP_JUMP_FORWARD_IF_TRUE    29 (to 350)
+            292 LOAD_FAST                5 (ix)
+            294 LOAD_GLOBAL              3 (NULL + len)
+            306 LOAD_FAST                0 (v)
+            308 LOAD_ATTR                2 (r)
+            318 LOAD_ATTR                2 (r)
+            328 PRECALL                  1
+            332 CALL                     1
+            342 COMPARE_OP               5 (>=)
+            348 POP_JUMP_FORWARD_IF_FALSE    15 (to 380)
+
+ 72     >>  350 LOAD_GLOBAL              7 (NULL + exit)
+            362 LOAD_CONST               4 (0)
+            364 PRECALL                  1
+            368 CALL                     1
+            378 POP_TOP
+
+ 73     >>  380 LOAD_FAST                0 (v)
+            382 LOAD_ATTR                2 (r)
+            392 LOAD_METHOD              4 (gt)
+            414 LOAD_FAST                5 (ix)
+            416 PRECALL                  1
+            420 CALL                     1
+            430 STORE_FAST               4 (ue)
+            432 JUMP_FORWARD            27 (to 488)
+
+ 74     >>  434 LOAD_FAST                3 (ir)
+            436 LOAD_CONST               4 (0)
+            438 COMPARE_OP               3 (!=)
+            444 POP_JUMP_FORWARD_IF_TRUE     6 (to 458)
+            446 LOAD_FAST                3 (ir)
+            448 LOAD_CONST               7 (1)
+            450 COMPARE_OP               3 (!=)
+            456 POP_JUMP_FORWARD_IF_FALSE    15 (to 488)
+
+ 75     >>  458 LOAD_GLOBAL              7 (NULL + exit)
+            470 LOAD_CONST               4 (0)
+            472 PRECALL                  1
+            476 CALL                     1
+            486 POP_TOP
+
+ 76     >>  488 LOAD_FAST                0 (v)
+            490 LOAD_ATTR                2 (r)
+            500 LOAD_METHOD              5 (st)
+            522 LOAD_FAST                2 (tg)
+            524 LOAD_FAST                4 (ue)
+            526 PRECALL                  2
+            530 CALL                     2
+            540 POP_TOP
+            542 LOAD_CONST               0 (None)
+            544 RETURN_VALUE
+
+Disassembly of <code object sh at 0x56263f6ef6e0, file "proc.py", line 77>:
+ 77           0 RESUME                   0
+
+ 78           2 LOAD_FAST                0 (v)
+              4 LOAD_ATTR                0 (s)
+             14 LOAD_ATTR                1 (size)
+             24 LOAD_FAST                0 (v)
+             26 LOAD_ATTR                0 (s)
+             36 LOAD_ATTR                2 (ms)
+             46 COMPARE_OP               5 (>=)
+             52 POP_JUMP_FORWARD_IF_FALSE    15 (to 84)
+
+ 79          54 LOAD_GLOBAL              7 (NULL + exit)
+             66 LOAD_CONST               1 (0)
+             68 PRECALL                  1
+             72 CALL                     1
+             82 POP_TOP
+
+ 80     >>   84 LOAD_FAST                1 (o)
+             86 LOAD_FAST                0 (v)
+             88 LOAD_ATTR                4 (sz)
+             98 LOAD_CONST               2 (2)
+            100 BINARY_OP               10 (-)
+            104 LOAD_CONST               3 (4)
+            106 BINARY_OP                5 (*)
+            110 BINARY_OP                9 (>>)
+            114 LOAD_CONST               4 (15)
+            116 BINARY_OP                1 (&)
+            120 STORE_FAST               2 (ir)
+
+ 81         122 LOAD_FAST                2 (ir)
+            124 LOAD_CONST               1 (0)
+            126 COMPARE_OP               2 (==)
+            132 POP_JUMP_FORWARD_IF_FALSE    20 (to 174)
+
+ 82         134 LOAD_FAST                1 (o)
+            136 LOAD_CONST               5 (16)
+            138 LOAD_FAST                0 (v)
+            140 LOAD_ATTR                4 (sz)
+            150 LOAD_CONST               2 (2)
+            152 BINARY_OP               10 (-)
+            156 BINARY_OP                8 (**)
+            160 LOAD_CONST               6 (1)
+            162 BINARY_OP               10 (-)
+            166 BINARY_OP                1 (&)
+            170 STORE_FAST               3 (ue)
+            172 JUMP_FORWARD            67 (to 308)
+
+ 83     >>  174 LOAD_FAST                2 (ir)
+            176 LOAD_CONST               6 (1)
+            178 COMPARE_OP               2 (==)
+            184 POP_JUMP_FORWARD_IF_FALSE    46 (to 278)
+
+ 84         186 LOAD_FAST                1 (o)
+            188 LOAD_FAST                0 (v)
+            190 LOAD_ATTR                4 (sz)
+            200 LOAD_CONST               7 (3)
+            202 BINARY_OP               10 (-)
+            206 LOAD_CONST               3 (4)
+            208 BINARY_OP                5 (*)
+            212 BINARY_OP                9 (>>)
+            216 LOAD_CONST               4 (15)
+            218 BINARY_OP                1 (&)
+            222 STORE_FAST               4 (tg)
+
+ 85         224 LOAD_FAST                0 (v)
+            226 LOAD_ATTR                5 (r)
+            236 LOAD_METHOD              6 (gt)
+            258 LOAD_FAST                4 (tg)
+            260 PRECALL                  1
+            264 CALL                     1
+            274 STORE_FAST               3 (ue)
+            276 JUMP_FORWARD            15 (to 308)
+
+ 87     >>  278 LOAD_GLOBAL              7 (NULL + exit)
+            290 LOAD_CONST               1 (0)
+            292 PRECALL                  1
+            296 CALL                     1
+            306 POP_TOP
+
+ 88     >>  308 LOAD_FAST                0 (v)
+            310 LOAD_ATTR                0 (s)
+            320 LOAD_METHOD              7 (sh)
+            342 LOAD_FAST                3 (ue)
+            344 PRECALL                  1
+            348 CALL                     1
+            358 POP_TOP
+            360 LOAD_CONST               0 (None)
+            362 RETURN_VALUE
+
+Disassembly of <code object p at 0x56263f689780, file "proc.py", line 89>:
+ 89           0 RESUME                   0
+
+ 90           2 LOAD_FAST                0 (v)
+              4 LOAD_ATTR                0 (s)
+             14 LOAD_ATTR                1 (size)
+             24 LOAD_CONST               1 (1)
+             26 COMPARE_OP               0 (<)
+             32 POP_JUMP_FORWARD_IF_FALSE    15 (to 64)
+
+ 91          34 LOAD_GLOBAL              5 (NULL + exit)
+             46 LOAD_CONST               2 (0)
+             48 PRECALL                  1
+             52 CALL                     1
+             62 POP_TOP
+
+ 92     >>   64 LOAD_FAST                1 (o)
+             66 LOAD_FAST                0 (v)
+             68 LOAD_ATTR                3 (sz)
+             78 LOAD_CONST               3 (2)
+             80 BINARY_OP               10 (-)
+             84 LOAD_CONST               4 (4)
+             86 BINARY_OP                5 (*)
+             90 BINARY_OP                9 (>>)
+             94 LOAD_CONST               5 (15)
+             96 BINARY_OP                1 (&)
+            100 STORE_FAST               2 (tg)
+
+ 93         102 LOAD_FAST                2 (tg)
+            104 LOAD_CONST               2 (0)
+            106 COMPARE_OP               0 (<)
+            112 POP_JUMP_FORWARD_IF_TRUE    29 (to 172)
+            114 LOAD_FAST                2 (tg)
+            116 LOAD_GLOBAL              9 (NULL + len)
+            128 LOAD_FAST                0 (v)
+            130 LOAD_ATTR                5 (r)
+            140 LOAD_ATTR                5 (r)
+            150 PRECALL                  1
+            154 CALL                     1
+            164 COMPARE_OP               5 (>=)
+            170 POP_JUMP_FORWARD_IF_FALSE    15 (to 202)
+
+ 94     >>  172 LOAD_GLOBAL              5 (NULL + exit)
+            184 LOAD_CONST               2 (0)
+            186 PRECALL                  1
+            190 CALL                     1
+            200 POP_TOP
+
+ 95     >>  202 LOAD_FAST                0 (v)
+            204 LOAD_ATTR                0 (s)
+            214 LOAD_ATTR                0 (s)
+            224 LOAD_CONST               6 (-1)
+            226 BINARY_SUBSCR
+            236 STORE_FAST               3 (ue)
+
+ 96         238 LOAD_FAST                0 (v)
+            240 LOAD_ATTR                5 (r)
+            250 LOAD_METHOD              6 (st)
+            272 LOAD_FAST                2 (tg)
+            274 LOAD_FAST                3 (ue)
+            276 PRECALL                  2
+            280 CALL                     2
+            290 POP_TOP
+
+ 97         292 LOAD_FAST                0 (v)
+            294 LOAD_ATTR                0 (s)
+            304 LOAD_METHOD              7 (p)
+            326 PRECALL                  0
+            330 CALL                     0
+            340 POP_TOP
+            342 LOAD_CONST               0 (None)
+            344 RETURN_VALUE
+
+Disassembly of <code object a at 0x56263f6d8fb0, file "proc.py", line 98>:
+ 98           0 RESUME                   0
+
+ 99           2 LOAD_FAST                1 (o)
+              4 LOAD_FAST                0 (v)
+              6 LOAD_ATTR                0 (sz)
+             16 LOAD_CONST               1 (2)
+             18 BINARY_OP               10 (-)
+             22 LOAD_CONST               2 (4)
+             24 BINARY_OP                5 (*)
+             28 BINARY_OP                9 (>>)
+             32 LOAD_CONST               3 (15)
+             34 BINARY_OP                1 (&)
+             38 STORE_FAST               2 (tg)
+
+100          40 LOAD_FAST                2 (tg)
+             42 LOAD_CONST               4 (0)
+             44 COMPARE_OP               0 (<)
+             50 POP_JUMP_FORWARD_IF_TRUE    29 (to 110)
+             52 LOAD_FAST                2 (tg)
+             54 LOAD_GLOBAL              3 (NULL + len)
+             66 LOAD_FAST                0 (v)
+             68 LOAD_ATTR                2 (r)
+             78 LOAD_ATTR                2 (r)
+             88 PRECALL                  1
+             92 CALL                     1
+            102 COMPARE_OP               5 (>=)
+            108 POP_JUMP_FORWARD_IF_FALSE    15 (to 140)
+
+101     >>  110 LOAD_GLOBAL              7 (NULL + exit)
+            122 LOAD_CONST               4 (0)
+            124 PRECALL                  1
+            128 CALL                     1
+            138 POP_TOP
+
+102     >>  140 LOAD_FAST                1 (o)
+            142 LOAD_FAST                0 (v)
+            144 LOAD_ATTR                0 (sz)
+            154 LOAD_CONST               5 (3)
+            156 BINARY_OP               10 (-)
+            160 LOAD_CONST               2 (4)
+            162 BINARY_OP                5 (*)
+            166 BINARY_OP                9 (>>)
+            170 LOAD_CONST               3 (15)
+            172 BINARY_OP                1 (&)
+            176 STORE_FAST               3 (ir)
+
+103         178 LOAD_FAST                3 (ir)
+            180 LOAD_CONST               4 (0)
+            182 COMPARE_OP               2 (==)
+            188 POP_JUMP_FORWARD_IF_FALSE    20 (to 230)
+
+104         190 LOAD_FAST                1 (o)
+            192 LOAD_CONST               6 (16)
+            194 LOAD_FAST                0 (v)
+            196 LOAD_ATTR                0 (sz)
+            206 LOAD_CONST               5 (3)
+            208 BINARY_OP               10 (-)
+            212 BINARY_OP                8 (**)
+            216 LOAD_CONST               7 (1)
+            218 BINARY_OP               10 (-)
+            222 BINARY_OP                1 (&)
+            226 STORE_FAST               4 (ue)
+            228 JUMP_FORWARD           129 (to 488)
+
+105     >>  230 LOAD_FAST                3 (ir)
+            232 LOAD_CONST               7 (1)
+            234 COMPARE_OP               2 (==)
+            240 POP_JUMP_FORWARD_IF_FALSE    96 (to 434)
+
+106         242 LOAD_FAST                1 (o)
+            244 LOAD_FAST                0 (v)
+            246 LOAD_ATTR                0 (sz)
+            256 LOAD_CONST               2 (4)
+            258 BINARY_OP               10 (-)
+            262 LOAD_CONST               2 (4)
+            264 BINARY_OP                5 (*)
+            268 BINARY_OP                9 (>>)
+            272 LOAD_CONST               3 (15)
+            274 BINARY_OP                1 (&)
+            278 STORE_FAST               5 (ix)
+
+107         280 LOAD_FAST                5 (ix)
+            282 LOAD_CONST               4 (0)
+            284 COMPARE_OP               0 (<)
+            290 POP_JUMP_FORWARD_IF_TRUE    29 (to 350)
+            292 LOAD_FAST                5 (ix)
+            294 LOAD_GLOBAL              3 (NULL + len)
+            306 LOAD_FAST                0 (v)
+            308 LOAD_ATTR                2 (r)
+            318 LOAD_ATTR                2 (r)
+            328 PRECALL                  1
+            332 CALL                     1
+            342 COMPARE_OP               5 (>=)
+            348 POP_JUMP_FORWARD_IF_FALSE    15 (to 380)
+
+108     >>  350 LOAD_GLOBAL              7 (NULL + exit)
+            362 LOAD_CONST               4 (0)
+            364 PRECALL                  1
+            368 CALL                     1
+            378 POP_TOP
+
+109     >>  380 LOAD_FAST                0 (v)
+            382 LOAD_ATTR                2 (r)
+            392 LOAD_METHOD              4 (gt)
+            414 LOAD_FAST                5 (ix)
+            416 PRECALL                  1
+            420 CALL                     1
+            430 STORE_FAST               4 (ue)
+            432 JUMP_FORWARD            27 (to 488)
+
+111     >>  434 LOAD_FAST                3 (ir)
+            436 LOAD_CONST               4 (0)
+            438 COMPARE_OP               3 (!=)
+            444 POP_JUMP_FORWARD_IF_TRUE     6 (to 458)
+            446 LOAD_FAST                3 (ir)
+            448 LOAD_CONST               7 (1)
+            450 COMPARE_OP               3 (!=)
+            456 POP_JUMP_FORWARD_IF_FALSE    15 (to 488)
+
+112     >>  458 LOAD_GLOBAL              7 (NULL + exit)
+            470 LOAD_CONST               4 (0)
+            472 PRECALL                  1
+            476 CALL                     1
+            486 POP_TOP
+
+113     >>  488 LOAD_FAST                0 (v)
+            490 LOAD_ATTR                2 (r)
+            500 LOAD_METHOD              4 (gt)
+            522 LOAD_FAST                2 (tg)
+            524 PRECALL                  1
+            528 CALL                     1
+            538 LOAD_FAST                4 (ue)
+            540 BINARY_OP                0 (+)
+            544 STORE_FAST               6 (tt)
+
+114         546 LOAD_FAST                0 (v)
+            548 LOAD_ATTR                2 (r)
+            558 LOAD_METHOD              5 (st)
+            580 LOAD_FAST                2 (tg)
+            582 LOAD_FAST                6 (tt)
+            584 PRECALL                  2
+            588 CALL                     2
+            598 POP_TOP
+            600 LOAD_CONST               0 (None)
+            602 RETURN_VALUE
+
+Disassembly of <code object b at 0x56263f6d9560, file "proc.py", line 115>:
+115           0 RESUME                   0
+
+116           2 LOAD_FAST                1 (o)
+              4 LOAD_FAST                0 (v)
+              6 LOAD_ATTR                0 (sz)
+             16 LOAD_CONST               1 (2)
+             18 BINARY_OP               10 (-)
+             22 LOAD_CONST               2 (4)
+             24 BINARY_OP                5 (*)
+             28 BINARY_OP                9 (>>)
+             32 LOAD_CONST               3 (15)
+             34 BINARY_OP                1 (&)
+             38 STORE_FAST               2 (tg)
+
+117          40 LOAD_FAST                2 (tg)
+             42 LOAD_CONST               4 (0)
+             44 COMPARE_OP               0 (<)
+             50 POP_JUMP_FORWARD_IF_TRUE    29 (to 110)
+             52 LOAD_FAST                2 (tg)
+             54 LOAD_GLOBAL              3 (NULL + len)
+             66 LOAD_FAST                0 (v)
+             68 LOAD_ATTR                2 (r)
+             78 LOAD_ATTR                2 (r)
+             88 PRECALL                  1
+             92 CALL                     1
+            102 COMPARE_OP               5 (>=)
+            108 POP_JUMP_FORWARD_IF_FALSE    15 (to 140)
+
+118     >>  110 LOAD_GLOBAL              7 (NULL + exit)
+            122 LOAD_CONST               4 (0)
+            124 PRECALL                  1
+            128 CALL                     1
+            138 POP_TOP
+
+119     >>  140 LOAD_FAST                1 (o)
+            142 LOAD_FAST                0 (v)
+            144 LOAD_ATTR                0 (sz)
+            154 LOAD_CONST               5 (3)
+            156 BINARY_OP               10 (-)
+            160 LOAD_CONST               2 (4)
+            162 BINARY_OP                5 (*)
+            166 BINARY_OP                9 (>>)
+            170 LOAD_CONST               3 (15)
+            172 BINARY_OP                1 (&)
+            176 STORE_FAST               3 (ir)
+
+120         178 LOAD_FAST                3 (ir)
+            180 LOAD_CONST               4 (0)
+            182 COMPARE_OP               2 (==)
+            188 POP_JUMP_FORWARD_IF_FALSE    20 (to 230)
+
+121         190 LOAD_FAST                1 (o)
+            192 LOAD_CONST               6 (16)
+            194 LOAD_FAST                0 (v)
+            196 LOAD_ATTR                0 (sz)
+            206 LOAD_CONST               5 (3)
+            208 BINARY_OP               10 (-)
+            212 BINARY_OP                8 (**)
+            216 LOAD_CONST               7 (1)
+            218 BINARY_OP               10 (-)
+            222 BINARY_OP                1 (&)
+            226 STORE_FAST               4 (ue)
+            228 JUMP_FORWARD           129 (to 488)
+
+122     >>  230 LOAD_FAST                3 (ir)
+            232 LOAD_CONST               7 (1)
+            234 COMPARE_OP               2 (==)
+            240 POP_JUMP_FORWARD_IF_FALSE    96 (to 434)
+
+123         242 LOAD_FAST                1 (o)
+            244 LOAD_FAST                0 (v)
+            246 LOAD_ATTR                0 (sz)
+            256 LOAD_CONST               2 (4)
+            258 BINARY_OP               10 (-)
+            262 LOAD_CONST               2 (4)
+            264 BINARY_OP                5 (*)
+            268 BINARY_OP                9 (>>)
+            272 LOAD_CONST               3 (15)
+            274 BINARY_OP                1 (&)
+            278 STORE_FAST               5 (ix)
+
+124         280 LOAD_FAST                5 (ix)
+            282 LOAD_CONST               4 (0)
+            284 COMPARE_OP               0 (<)
+            290 POP_JUMP_FORWARD_IF_TRUE    29 (to 350)
+            292 LOAD_FAST                5 (ix)
+            294 LOAD_GLOBAL              3 (NULL + len)
+            306 LOAD_FAST                0 (v)
+            308 LOAD_ATTR                2 (r)
+            318 LOAD_ATTR                2 (r)
+            328 PRECALL                  1
+            332 CALL                     1
+            342 COMPARE_OP               5 (>=)
+            348 POP_JUMP_FORWARD_IF_FALSE    15 (to 380)
+
+125     >>  350 LOAD_GLOBAL              7 (NULL + exit)
+            362 LOAD_CONST               4 (0)
+            364 PRECALL                  1
+            368 CALL                     1
+            378 POP_TOP
+
+126     >>  380 LOAD_FAST                0 (v)
+            382 LOAD_ATTR                2 (r)
+            392 LOAD_METHOD              4 (gt)
+            414 LOAD_FAST                5 (ix)
+            416 PRECALL                  1
+            420 CALL                     1
+            430 STORE_FAST               4 (ue)
+            432 JUMP_FORWARD            27 (to 488)
+
+128     >>  434 LOAD_FAST                3 (ir)
+            436 LOAD_CONST               4 (0)
+            438 COMPARE_OP               3 (!=)
+            444 POP_JUMP_FORWARD_IF_TRUE     6 (to 458)
+            446 LOAD_FAST                3 (ir)
+            448 LOAD_CONST               7 (1)
+            450 COMPARE_OP               3 (!=)
+            456 POP_JUMP_FORWARD_IF_FALSE    15 (to 488)
+
+129     >>  458 LOAD_GLOBAL              7 (NULL + exit)
+            470 LOAD_CONST               4 (0)
+            472 PRECALL                  1
+            476 CALL                     1
+            486 POP_TOP
+
+130     >>  488 LOAD_FAST                0 (v)
+            490 LOAD_ATTR                2 (r)
+            500 LOAD_METHOD              4 (gt)
+            522 LOAD_FAST                2 (tg)
+            524 PRECALL                  1
+            528 CALL                     1
+            538 LOAD_FAST                4 (ue)
+            540 BINARY_OP               10 (-)
+            544 STORE_FAST               6 (tt)
+
+131         546 LOAD_FAST                0 (v)
+            548 LOAD_ATTR                2 (r)
+            558 LOAD_METHOD              5 (st)
+            580 LOAD_FAST                2 (tg)
+            582 LOAD_FAST                6 (tt)
+            584 PRECALL                  2
+            588 CALL                     2
+            598 POP_TOP
+            600 LOAD_CONST               0 (None)
+            602 RETURN_VALUE
+
+Disassembly of <code object z at 0x56263f6c6210, file "proc.py", line 132>:
+132           0 RESUME                   0
+
+133           2 LOAD_FAST                1 (o)
+              4 LOAD_FAST                0 (v)
+              6 LOAD_ATTR                0 (sz)
+             16 LOAD_CONST               1 (2)
+             18 BINARY_OP               10 (-)
+             22 LOAD_CONST               2 (4)
+             24 BINARY_OP                5 (*)
+             28 BINARY_OP                9 (>>)
+             32 LOAD_CONST               3 (15)
+             34 BINARY_OP                1 (&)
+             38 STORE_FAST               2 (tg)
+
+134          40 LOAD_FAST                2 (tg)
+             42 LOAD_CONST               4 (0)
+             44 COMPARE_OP               0 (<)
+             50 POP_JUMP_FORWARD_IF_TRUE    29 (to 110)
+             52 LOAD_FAST                2 (tg)
+             54 LOAD_GLOBAL              3 (NULL + len)
+             66 LOAD_FAST                0 (v)
+             68 LOAD_ATTR                2 (r)
+             78 LOAD_ATTR                2 (r)
+             88 PRECALL                  1
+             92 CALL                     1
+            102 COMPARE_OP               5 (>=)
+            108 POP_JUMP_FORWARD_IF_FALSE    15 (to 140)
+
+135     >>  110 LOAD_GLOBAL              7 (NULL + exit)
+            122 LOAD_CONST               4 (0)
+            124 PRECALL                  1
+            128 CALL                     1
+            138 POP_TOP
+
+136     >>  140 LOAD_FAST                1 (o)
+            142 LOAD_FAST                0 (v)
+            144 LOAD_ATTR                0 (sz)
+            154 LOAD_CONST               5 (3)
+            156 BINARY_OP               10 (-)
+            160 LOAD_CONST               2 (4)
+            162 BINARY_OP                5 (*)
+            166 BINARY_OP                9 (>>)
+            170 LOAD_CONST               3 (15)
+            172 BINARY_OP                1 (&)
+            176 STORE_FAST               3 (ir)
+
+137         178 LOAD_FAST                3 (ir)
+            180 LOAD_CONST               4 (0)
+            182 COMPARE_OP               2 (==)
+            188 POP_JUMP_FORWARD_IF_FALSE    20 (to 230)
+
+138         190 LOAD_FAST                1 (o)
+            192 LOAD_CONST               6 (16)
+            194 LOAD_FAST                0 (v)
+            196 LOAD_ATTR                0 (sz)
+            206 LOAD_CONST               5 (3)
+            208 BINARY_OP               10 (-)
+            212 BINARY_OP                8 (**)
+            216 LOAD_CONST               7 (1)
+            218 BINARY_OP               10 (-)
+            222 BINARY_OP                1 (&)
+            226 STORE_FAST               4 (ue)
+            228 JUMP_FORWARD           129 (to 488)
+
+139     >>  230 LOAD_FAST                3 (ir)
+            232 LOAD_CONST               7 (1)
+            234 COMPARE_OP               2 (==)
+            240 POP_JUMP_FORWARD_IF_FALSE    96 (to 434)
+
+140         242 LOAD_FAST                1 (o)
+            244 LOAD_FAST                0 (v)
+            246 LOAD_ATTR                0 (sz)
+            256 LOAD_CONST               2 (4)
+            258 BINARY_OP               10 (-)
+            262 LOAD_CONST               2 (4)
+            264 BINARY_OP                5 (*)
+            268 BINARY_OP                9 (>>)
+            272 LOAD_CONST               3 (15)
+            274 BINARY_OP                1 (&)
+            278 STORE_FAST               5 (ix)
+
+141         280 LOAD_FAST                5 (ix)
+            282 LOAD_CONST               4 (0)
+            284 COMPARE_OP               0 (<)
+            290 POP_JUMP_FORWARD_IF_TRUE    29 (to 350)
+            292 LOAD_FAST                5 (ix)
+            294 LOAD_GLOBAL              3 (NULL + len)
+            306 LOAD_FAST                0 (v)
+            308 LOAD_ATTR                2 (r)
+            318 LOAD_ATTR                2 (r)
+            328 PRECALL                  1
+            332 CALL                     1
+            342 COMPARE_OP               5 (>=)
+            348 POP_JUMP_FORWARD_IF_FALSE    15 (to 380)
+
+142     >>  350 LOAD_GLOBAL              7 (NULL + exit)
+            362 LOAD_CONST               4 (0)
+            364 PRECALL                  1
+            368 CALL                     1
+            378 POP_TOP
+
+143     >>  380 LOAD_FAST                0 (v)
+            382 LOAD_ATTR                2 (r)
+            392 LOAD_METHOD              4 (gt)
+            414 LOAD_FAST                5 (ix)
+            416 PRECALL                  1
+            420 CALL                     1
+            430 STORE_FAST               4 (ue)
+            432 JUMP_FORWARD            27 (to 488)
+
+144     >>  434 LOAD_FAST                3 (ir)
+            436 LOAD_CONST               4 (0)
+            438 COMPARE_OP               3 (!=)
+            444 POP_JUMP_FORWARD_IF_TRUE     6 (to 458)
+            446 LOAD_FAST                3 (ir)
+            448 LOAD_CONST               7 (1)
+            450 COMPARE_OP               3 (!=)
+            456 POP_JUMP_FORWARD_IF_FALSE    15 (to 488)
+
+145     >>  458 LOAD_GLOBAL              7 (NULL + exit)
+            470 LOAD_CONST               4 (0)
+            472 PRECALL                  1
+            476 CALL                     1
+            486 POP_TOP
+
+146     >>  488 LOAD_FAST                0 (v)
+            490 LOAD_ATTR                2 (r)
+            500 LOAD_METHOD              4 (gt)
+            522 LOAD_FAST                2 (tg)
+            524 PRECALL                  1
+            528 CALL                     1
+            538 LOAD_FAST                4 (ue)
+            540 BINARY_OP               12 (^)
+            544 STORE_FAST               6 (tt)
+
+147         546 LOAD_FAST                0 (v)
+            548 LOAD_ATTR                2 (r)
+            558 LOAD_METHOD              5 (st)
+            580 LOAD_FAST                2 (tg)
+            582 LOAD_FAST                6 (tt)
+            584 PRECALL                  2
+            588 CALL                     2
+            598 POP_TOP
+            600 LOAD_CONST               0 (None)
+            602 RETURN_VALUE
+
+Disassembly of <code object c at 0x56263f6f9c30, file "proc.py", line 148>:
+148           0 RESUME                   0
+
+149           2 LOAD_FAST                1 (o)
+              4 LOAD_FAST                0 (v)
+              6 LOAD_ATTR                0 (sz)
+             16 LOAD_CONST               1 (2)
+             18 BINARY_OP               10 (-)
+             22 LOAD_CONST               2 (4)
+             24 BINARY_OP                5 (*)
+             28 BINARY_OP                9 (>>)
+             32 LOAD_CONST               3 (15)
+             34 BINARY_OP                1 (&)
+             38 STORE_FAST               2 (tg)
+
+150          40 LOAD_FAST                2 (tg)
+             42 LOAD_CONST               4 (0)
+             44 COMPARE_OP               0 (<)
+             50 POP_JUMP_FORWARD_IF_TRUE    29 (to 110)
+             52 LOAD_FAST                2 (tg)
+             54 LOAD_GLOBAL              3 (NULL + len)
+             66 LOAD_FAST                0 (v)
+             68 LOAD_ATTR                2 (r)
+             78 LOAD_ATTR                2 (r)
+             88 PRECALL                  1
+             92 CALL                     1
+            102 COMPARE_OP               5 (>=)
+            108 POP_JUMP_FORWARD_IF_FALSE    15 (to 140)
+
+151     >>  110 LOAD_GLOBAL              7 (NULL + exit)
+            122 LOAD_CONST               4 (0)
+            124 PRECALL                  1
+            128 CALL                     1
+            138 POP_TOP
+
+152     >>  140 LOAD_FAST                1 (o)
+            142 LOAD_FAST                0 (v)
+            144 LOAD_ATTR                0 (sz)
+            154 LOAD_CONST               5 (3)
+            156 BINARY_OP               10 (-)
+            160 LOAD_CONST               2 (4)
+            162 BINARY_OP                5 (*)
+            166 BINARY_OP                9 (>>)
+            170 LOAD_CONST               3 (15)
+            172 BINARY_OP                1 (&)
+            176 STORE_FAST               3 (ir)
+
+153         178 LOAD_FAST                3 (ir)
+            180 LOAD_CONST               4 (0)
+            182 COMPARE_OP               2 (==)
+            188 POP_JUMP_FORWARD_IF_FALSE    20 (to 230)
+
+154         190 LOAD_FAST                1 (o)
+            192 LOAD_CONST               6 (16)
+            194 LOAD_FAST                0 (v)
+            196 LOAD_ATTR                0 (sz)
+            206 LOAD_CONST               5 (3)
+            208 BINARY_OP               10 (-)
+            212 BINARY_OP                8 (**)
+            216 LOAD_CONST               7 (1)
+            218 BINARY_OP               10 (-)
+            222 BINARY_OP                1 (&)
+            226 STORE_FAST               4 (ue)
+            228 JUMP_FORWARD           129 (to 488)
+
+155     >>  230 LOAD_FAST                3 (ir)
+            232 LOAD_CONST               7 (1)
+            234 COMPARE_OP               2 (==)
+            240 POP_JUMP_FORWARD_IF_FALSE    96 (to 434)
+
+156         242 LOAD_FAST                1 (o)
+            244 LOAD_FAST                0 (v)
+            246 LOAD_ATTR                0 (sz)
+            256 LOAD_CONST               2 (4)
+            258 BINARY_OP               10 (-)
+            262 LOAD_CONST               2 (4)
+            264 BINARY_OP                5 (*)
+            268 BINARY_OP                9 (>>)
+            272 LOAD_CONST               3 (15)
+            274 BINARY_OP                1 (&)
+            278 STORE_FAST               5 (ix)
+
+157         280 LOAD_FAST                5 (ix)
+            282 LOAD_CONST               4 (0)
+            284 COMPARE_OP               0 (<)
+            290 POP_JUMP_FORWARD_IF_TRUE    29 (to 350)
+            292 LOAD_FAST                5 (ix)
+            294 LOAD_GLOBAL              3 (NULL + len)
+            306 LOAD_FAST                0 (v)
+            308 LOAD_ATTR                2 (r)
+            318 LOAD_ATTR                2 (r)
+            328 PRECALL                  1
+            332 CALL                     1
+            342 COMPARE_OP               5 (>=)
+            348 POP_JUMP_FORWARD_IF_FALSE    15 (to 380)
+
+158     >>  350 LOAD_GLOBAL              7 (NULL + exit)
+            362 LOAD_CONST               4 (0)
+            364 PRECALL                  1
+            368 CALL                     1
+            378 POP_TOP
+
+159     >>  380 LOAD_FAST                0 (v)
+            382 LOAD_ATTR                2 (r)
+            392 LOAD_METHOD              4 (gt)
+            414 LOAD_FAST                5 (ix)
+            416 PRECALL                  1
+            420 CALL                     1
+            430 STORE_FAST               4 (ue)
+            432 JUMP_FORWARD            27 (to 488)
+
+160     >>  434 LOAD_FAST                3 (ir)
+            436 LOAD_CONST               4 (0)
+            438 COMPARE_OP               3 (!=)
+            444 POP_JUMP_FORWARD_IF_TRUE     6 (to 458)
+            446 LOAD_FAST                3 (ir)
+            448 LOAD_CONST               7 (1)
+            450 COMPARE_OP               3 (!=)
+            456 POP_JUMP_FORWARD_IF_FALSE    15 (to 488)
+
+161     >>  458 LOAD_GLOBAL              7 (NULL + exit)
+            470 LOAD_CONST               4 (0)
+            472 PRECALL                  1
+            476 CALL                     1
+            486 POP_TOP
+
+162     >>  488 LOAD_FAST                0 (v)
+            490 LOAD_ATTR                2 (r)
+            500 LOAD_METHOD              4 (gt)
+            522 LOAD_FAST                2 (tg)
+            524 PRECALL                  1
+            528 CALL                     1
+            538 LOAD_FAST                4 (ue)
+            540 COMPARE_OP               2 (==)
+            546 POP_JUMP_FORWARD_IF_FALSE    28 (to 604)
+
+163         548 LOAD_FAST                0 (v)
+            550 LOAD_ATTR                2 (r)
+            560 LOAD_METHOD              5 (sfz)
+            582 LOAD_CONST               8 (True)
+            584 PRECALL                  1
+            588 CALL                     1
+            598 POP_TOP
+            600 LOAD_CONST               0 (None)
+            602 RETURN_VALUE
+
+165     >>  604 LOAD_FAST                0 (v)
+            606 LOAD_ATTR                2 (r)
+            616 LOAD_METHOD              5 (sfz)
+            638 LOAD_CONST               9 (False)
+            640 PRECALL                  1
+            644 CALL                     1
+            654 POP_TOP
+            656 LOAD_CONST               0 (None)
+            658 RETURN_VALUE
+
+Disassembly of <code object _exit at 0x7f57bed5b2f0, file "proc.py", line 166>:
+166           0 RESUME                   0
+
+167           2 LOAD_GLOBAL              1 (NULL + exit)
+             14 LOAD_CONST               1 (0)
+             16 PRECALL                  1
+             20 CALL                     1
+             30 POP_TOP
+             32 LOAD_CONST               0 (None)
+             34 RETURN_VALUE
+
+Disassembly of <code object V at 0x7f57bed5b3d0, file "proc.py", line 177>:
+177           0 RESUME                   0
+              2 LOAD_NAME                0 (__name__)
+              4 STORE_NAME               1 (__module__)
+              6 LOAD_CONST               0 ('V')
+              8 STORE_NAME               2 (__qualname__)
+
+178          10 LOAD_CONST               1 (<code object __init__ at 0x7f57bee957d0, file "proc.py", line 178>)
+             12 MAKE_FUNCTION            0
+             14 STORE_NAME               3 (__init__)
+
+182          16 LOAD_CONST               2 (<code object x at 0x56263f703ee0, file "proc.py", line 182>)
+             18 MAKE_FUNCTION            0
+             20 STORE_NAME               4 (x)
+             22 LOAD_CONST               3 (None)
+             24 RETURN_VALUE
+
+Disassembly of <code object __init__ at 0x7f57bee957d0, file "proc.py", line 178>:
+178           0 RESUME                   0
+
+179           2 LOAD_GLOBAL              1 (NULL + S)
+             14 PRECALL                  0
+             18 CALL                     0
+             28 LOAD_FAST                0 (self)
+             30 STORE_ATTR               1 (s)
+
+180          40 LOAD_GLOBAL              5 (NULL + R)
+             52 PRECALL                  0
+             56 CALL                     0
+             66 LOAD_FAST                0 (self)
+             68 STORE_ATTR               3 (r)
+
+181          78 LOAD_CONST               1 (8)
+             80 LOAD_FAST                0 (self)
+             82 STORE_ATTR               4 (sz)
+             92 LOAD_CONST               0 (None)
+             94 RETURN_VALUE
+
+Disassembly of <code object x at 0x56263f703ee0, file "proc.py", line 182>:
+182           0 RESUME                   0
+
+183           2 LOAD_GLOBAL              1 (NULL + len)
+             14 LOAD_FAST                1 (cd)
+             16 PRECALL                  1
+             20 CALL                     1
+             30 LOAD_CONST               1 (51)
+             32 COMPARE_OP               3 (!=)
+             38 POP_JUMP_FORWARD_IF_FALSE    30 (to 100)
+
+184          40 LOAD_GLOBAL              3 (NULL + print)
+             52 LOAD_CONST               2 ('Wrong!')
+             54 PRECALL                  1
+             58 CALL                     1
+             68 POP_TOP
+
+185          70 LOAD_GLOBAL              5 (NULL + exit)
+             82 LOAD_CONST               3 (0)
+             84 PRECALL                  1
+             88 CALL                     1
+             98 POP_TOP
+
+186     >>  100 LOAD_CONST               4 (<code object <listcomp> at 0x7f57beed6bf0, file "proc.py", line 186>)
+            102 MAKE_FUNCTION            0
+            104 LOAD_FAST                1 (cd)
+            106 GET_ITER
+            108 PRECALL                  0
+            112 CALL                     0
+            122 STORE_FAST               2 (hv)
+
+187         124 LOAD_CONST               5 ('')
+            126 LOAD_METHOD              3 (join)
+            148 BUILD_LIST               0
+            150 LOAD_CONST               6 ('60100000000')
+            152 LIST_APPEND              1
+            154 LOAD_FAST                2 (hv)
+            156 LOAD_CONST               3 (0)
+            158 BINARY_SUBSCR
+            168 FORMAT_VALUE             0
+            170 LIST_APPEND              1
+            172 LOAD_CONST               7 ('6000001130000539600000164000000C600000005000057961110000010')
+            174 LIST_APPEND              1
+            176 LOAD_FAST                2 (hv)
+            178 LOAD_CONST               8 (1)
+            180 BINARY_SUBSCR
+            190 FORMAT_VALUE             0
+            192 LIST_APPEND              1
+            194 LOAD_CONST               9 ('6100001131000539610000164100000C610000015100059062120000020')
+            196 LIST_APPEND              1
+            198 LOAD_FAST                2 (hv)
+            200 LOAD_CONST              10 (2)
+            202 BINARY_SUBSCR
+            212 FORMAT_VALUE             0
+            214 LIST_APPEND              1
+            216 LOAD_CONST              11 ('6200001132000539620000164200000C620000025200056363130000030')
+            218 LIST_APPEND              1
+            220 LOAD_FAST                2 (hv)
+            222 LOAD_CONST              12 (3)
+            224 BINARY_SUBSCR
+            234 FORMAT_VALUE             0
+            236 LIST_APPEND              1
+            238 LOAD_CONST              13 ('6300001133000539630000164300000C630000035300059260100000000')
+            240 LIST_APPEND              1
+            242 LOAD_FAST                2 (hv)
+            244 LOAD_CONST              14 (4)
+            246 BINARY_SUBSCR
+            256 FORMAT_VALUE             0
+            258 LIST_APPEND              1
+            260 LOAD_CONST              15 ('6000001130000539600000164000000C60000004500005ad61110000010')
+            262 LIST_APPEND              1
+            264 LOAD_FAST                2 (hv)
+            266 LOAD_CONST              16 (5)
+            268 BINARY_SUBSCR
+            278 FORMAT_VALUE             0
+            280 LIST_APPEND              1
+            282 LOAD_CONST              17 ('6100001131000539610000164100000C610000055100055962120000020')
+            284 LIST_APPEND              1
+            286 LOAD_FAST                2 (hv)
+            288 LOAD_CONST              18 (6)
+            290 BINARY_SUBSCR
+            300 FORMAT_VALUE             0
+            302 LIST_APPEND              1
+            304 LOAD_CONST              19 ('6200001132000539620000164200000C620000065200059e63130000030')
+            306 LIST_APPEND              1
+            308 LOAD_FAST                2 (hv)
+            310 LOAD_CONST              20 (7)
+            312 BINARY_SUBSCR
+            322 FORMAT_VALUE             0
+            324 LIST_APPEND              1
+            326 LOAD_CONST              21 ('6300001133000539630000164300000C630000075300054660100000000')
+            328 LIST_APPEND              1
+            330 LOAD_FAST                2 (hv)
+            332 LOAD_CONST              22 (8)
+            334 BINARY_SUBSCR
+            344 FORMAT_VALUE             0
+            346 LIST_APPEND              1
+            348 LOAD_CONST              23 ('6000001130000539600000164000000C600000085000057661110000010')
+            350 LIST_APPEND              1
+            352 LOAD_FAST                2 (hv)
+            354 LOAD_CONST              24 (9)
+            356 BINARY_SUBSCR
+            366 FORMAT_VALUE             0
+            368 LIST_APPEND              1
+            370 LOAD_CONST              25 ('6100001131000539610000164100000C610000095100054862120000020')
+            372 LIST_APPEND              1
+            374 LOAD_FAST                2 (hv)
+            376 LOAD_CONST              26 (10)
+            378 BINARY_SUBSCR
+            388 FORMAT_VALUE             0
+            390 LIST_APPEND              1
+            392 LOAD_CONST              27 ('6200001132000539620000164200000C6200000a5200058f63130000030')
+            394 LIST_APPEND              1
+            396 LOAD_FAST                2 (hv)
+            398 LOAD_CONST              28 (11)
+            400 BINARY_SUBSCR
+            410 FORMAT_VALUE             0
+            412 LIST_APPEND              1
+            414 LOAD_CONST              29 ('6300001133000539630000164300000C6300000b5300054860100000000')
+            416 LIST_APPEND              1
+            418 LOAD_FAST                2 (hv)
+            420 LOAD_CONST              30 (12)
+            422 BINARY_SUBSCR
+            432 FORMAT_VALUE             0
+            434 LIST_APPEND              1
+            436 LOAD_CONST              31 ('6000001130000539600000164000000C6000000c5000058d61110000010')
+            438 LIST_APPEND              1
+            440 LOAD_FAST                2 (hv)
+            442 LOAD_CONST              32 (13)
+            444 BINARY_SUBSCR
+            454 FORMAT_VALUE             0
+            456 LIST_APPEND              1
+            458 LOAD_CONST              33 ('6100001131000539610000164100000C6100000d5100058862120000020')
+            460 LIST_APPEND              1
+            462 LOAD_FAST                2 (hv)
+            464 LOAD_CONST              34 (14)
+            466 BINARY_SUBSCR
+            476 FORMAT_VALUE             0
+            478 LIST_APPEND              1
+            480 LOAD_CONST              35 ('6200001132000539620000164200000C6200000e5200053263130000030')
+            482 LIST_APPEND              1
+            484 LOAD_FAST                2 (hv)
+            486 LOAD_CONST              36 (15)
+            488 BINARY_SUBSCR
+            498 FORMAT_VALUE             0
+            500 LIST_APPEND              1
+            502 LOAD_CONST              37 ('6300001133000539630000164300000C6300000f5300058a60100000000')
+            504 LIST_APPEND              1
+            506 LOAD_FAST                2 (hv)
+            508 LOAD_CONST              38 (16)
+            510 BINARY_SUBSCR
+            520 FORMAT_VALUE             0
+            522 LIST_APPEND              1
+            524 LOAD_CONST              39 ('6000001130000539600000164000000C600000105000057061110000010')
+            526 LIST_APPEND              1
+            528 LOAD_FAST                2 (hv)
+            530 LOAD_CONST              40 (17)
+            532 BINARY_SUBSCR
+            542 FORMAT_VALUE             0
+            544 LIST_APPEND              1
+            546 LOAD_CONST              41 ('6100001131000539610000164100000C61000011510005ba62120000020')
+            548 LIST_APPEND              1
+            550 LOAD_FAST                2 (hv)
+            552 LOAD_CONST              42 (18)
+            554 BINARY_SUBSCR
+            564 FORMAT_VALUE             0
+            566 LIST_APPEND              1
+            568 LOAD_CONST              43 ('6200001132000539620000164200000C620000125200056e63130000030')
+            570 LIST_APPEND              1
+            572 LOAD_FAST                2 (hv)
+            574 LOAD_CONST              44 (19)
+            576 BINARY_SUBSCR
+            586 FORMAT_VALUE             0
+            588 LIST_APPEND              1
+            590 LOAD_CONST              45 ('6300001133000539630000164300000C630000135300058b60100000000')
+            592 LIST_APPEND              1
+            594 LOAD_FAST                2 (hv)
+            596 LOAD_CONST              46 (20)
+            598 BINARY_SUBSCR
+            608 FORMAT_VALUE             0
+            610 LIST_APPEND              1
+            612 LOAD_CONST              47 ('6000001130000539600000164000000C600000145000055461110000010')
+            614 LIST_APPEND              1
+            616 LOAD_FAST                2 (hv)
+            618 LOAD_CONST              48 (21)
+            620 BINARY_SUBSCR
+            630 FORMAT_VALUE             0
+            632 LIST_APPEND              1
+            634 LOAD_CONST              49 ('6100001131000539610000164100000C61000015510005b762120000020')
+            636 LIST_APPEND              1
+            638 LOAD_FAST                2 (hv)
+            640 LOAD_CONST              50 (22)
+            642 BINARY_SUBSCR
+            652 FORMAT_VALUE             0
+            654 LIST_APPEND              1
+            656 LOAD_CONST              51 ('6200001132000539620000164200000C620000165200059363130000030')
+            658 LIST_APPEND              1
+            660 LOAD_FAST                2 (hv)
+            662 LOAD_CONST              52 (23)
+            664 BINARY_SUBSCR
+            674 FORMAT_VALUE             0
+            676 LIST_APPEND              1
+            678 LOAD_CONST              53 ('6300001133000539630000164300000C630000175300057660100000000')
+            680 LIST_APPEND              1
+            682 LOAD_FAST                2 (hv)
+            684 LOAD_CONST              54 (24)
+            686 BINARY_SUBSCR
+            696 FORMAT_VALUE             0
+            698 LIST_APPEND              1
+            700 LOAD_CONST              55 ('6000001130000539600000164000000C600000185000058c61110000010')
+            702 LIST_APPEND              1
+            704 LOAD_FAST                2 (hv)
+            706 LOAD_CONST              56 (25)
+            708 BINARY_SUBSCR
+            718 FORMAT_VALUE             0
+            720 LIST_APPEND              1
+            722 LOAD_CONST              57 ('6100001131000539610000164100000C610000195100055a62120000020')
+            724 LIST_APPEND              1
+            726 LOAD_FAST                2 (hv)
+            728 LOAD_CONST              58 (26)
+            730 BINARY_SUBSCR
+            740 FORMAT_VALUE             0
+            742 LIST_APPEND              1
+            744 LOAD_CONST              59 ('6200001132000539620000164200000C6200001a5200056663130000030')
+            746 LIST_APPEND              1
+            748 LOAD_FAST                2 (hv)
+            750 LOAD_CONST              60 (27)
+            752 BINARY_SUBSCR
+            762 FORMAT_VALUE             0
+            764 LIST_APPEND              1
+            766 LOAD_CONST              61 ('6300001133000539630000164300000C6300001b5300058360100000000')
+            768 LIST_APPEND              1
+            770 LOAD_FAST                2 (hv)
+            772 LOAD_CONST              62 (28)
+            774 BINARY_SUBSCR
+            784 FORMAT_VALUE             0
+            786 LIST_APPEND              1
+            788 LOAD_CONST              63 ('6000001130000539600000164000000C6000001c5000055d61110000010')
+            790 LIST_APPEND              1
+            792 LOAD_FAST                2 (hv)
+            794 LOAD_CONST              64 (29)
+            796 BINARY_SUBSCR
+            806 FORMAT_VALUE             0
+            808 LIST_APPEND              1
+            810 LOAD_CONST              65 ('6100001131000539610000164100000C6100001d5100056362120000020')
+            812 LIST_APPEND              1
+            814 LOAD_FAST                2 (hv)
+            816 LOAD_CONST              66 (30)
+            818 BINARY_SUBSCR
+            828 FORMAT_VALUE             0
+            830 LIST_APPEND              1
+            832 LOAD_CONST              67 ('6200001132000539620000164200000C6200001e5200052163130000030')
+            834 LIST_APPEND              1
+            836 LOAD_FAST                2 (hv)
+            838 LOAD_CONST              68 (31)
+            840 BINARY_SUBSCR
+            850 FORMAT_VALUE             0
+            852 LIST_APPEND              1
+            854 LOAD_CONST              69 ('6300001133000539630000164300000C6300001f5300059a60100000000')
+            856 LIST_APPEND              1
+            858 LOAD_FAST                2 (hv)
+            860 LOAD_CONST              70 (32)
+            862 BINARY_SUBSCR
+            872 FORMAT_VALUE             0
+            874 LIST_APPEND              1
+            876 LOAD_CONST              71 ('6000001130000539600000164000000C600000205000056361110000010')
+            878 LIST_APPEND              1
+            880 LOAD_FAST                2 (hv)
+            882 LOAD_CONST              72 (33)
+            884 BINARY_SUBSCR
+            894 FORMAT_VALUE             0
+            896 LIST_APPEND              1
+            898 LOAD_CONST              73 ('6100001131000539610000164100000C610000215100058362120000020')
+            900 LIST_APPEND              1
+            902 LOAD_FAST                2 (hv)
+            904 LOAD_CONST              74 (34)
+            906 BINARY_SUBSCR
+            916 FORMAT_VALUE             0
+            918 LIST_APPEND              1
+            920 LOAD_CONST              75 ('6200001132000539620000164200000C62000022520005a763130000030')
+            922 LIST_APPEND              1
+            924 LOAD_FAST                2 (hv)
+            926 LOAD_CONST              76 (35)
+            928 BINARY_SUBSCR
+            938 FORMAT_VALUE             0
+            940 LIST_APPEND              1
+            942 LOAD_CONST              77 ('6300001133000539630000164300000C630000235300051f60100000000')
+            944 LIST_APPEND              1
+            946 LOAD_FAST                2 (hv)
+            948 LOAD_CONST              78 (36)
+            950 BINARY_SUBSCR
+            960 FORMAT_VALUE             0
+            962 LIST_APPEND              1
+            964 LOAD_CONST              79 ('6000001130000539600000164000000C60000024500005a161110000010')
+            966 LIST_APPEND              1
+            968 LOAD_FAST                2 (hv)
+            970 LOAD_CONST              80 (37)
+            972 BINARY_SUBSCR
+            982 FORMAT_VALUE             0
+            984 LIST_APPEND              1
+            986 LOAD_CONST              81 ('6100001131000539610000164100000C61000025510005af62120000020')
+            988 LIST_APPEND              1
+            990 LOAD_FAST                2 (hv)
+            992 LOAD_CONST              82 (38)
+            994 BINARY_SUBSCR
+           1004 FORMAT_VALUE             0
+           1006 LIST_APPEND              1
+           1008 LOAD_CONST              83 ('6200001132000539620000164200000C62000026520005bd63130000030')
+           1010 LIST_APPEND              1
+           1012 LOAD_FAST                2 (hv)
+           1014 LOAD_CONST              84 (39)
+           1016 BINARY_SUBSCR
+           1026 FORMAT_VALUE             0
+           1028 LIST_APPEND              1
+           1030 LOAD_CONST              85 ('6300001133000539630000164300000C630000275300055960100000000')
+           1032 LIST_APPEND              1
+           1034 LOAD_FAST                2 (hv)
+           1036 LOAD_CONST              86 (40)
+           1038 BINARY_SUBSCR
+           1048 FORMAT_VALUE             0
+           1050 LIST_APPEND              1
+           1052 LOAD_CONST              87 ('6000001130000539600000164000000C600000285000057461110000010')
+           1054 LIST_APPEND              1
+           1056 LOAD_FAST                2 (hv)
+           1058 LOAD_CONST              88 (41)
+           1060 BINARY_SUBSCR
+           1070 FORMAT_VALUE             0
+           1072 LIST_APPEND              1
+           1074 LOAD_CONST              89 ('6100001131000539610000164100000C610000295100055662120000020')
+           1076 LIST_APPEND              1
+           1078 LOAD_FAST                2 (hv)
+           1080 LOAD_CONST              90 (42)
+           1082 BINARY_SUBSCR
+           1092 FORMAT_VALUE             0
+           1094 LIST_APPEND              1
+           1096 LOAD_CONST              91 ('6200001132000539620000164200000C6200002a5200051663130000030')
+           1098 LIST_APPEND              1
+           1100 LOAD_FAST                2 (hv)
+           1102 LOAD_CONST              92 (43)
+           1104 BINARY_SUBSCR
+           1114 FORMAT_VALUE             0
+           1116 LIST_APPEND              1
+           1118 LOAD_CONST              93 ('6300001133000539630000164300000C6300002b530005bf60100000000')
+           1120 LIST_APPEND              1
+           1122 LOAD_FAST                2 (hv)
+           1124 LOAD_CONST              94 (44)
+           1126 BINARY_SUBSCR
+           1136 FORMAT_VALUE             0
+           1138 LIST_APPEND              1
+           1140 LOAD_CONST              95 ('6000001130000539600000164000000C6000002c500005a961110000010')
+           1142 LIST_APPEND              1
+           1144 LOAD_FAST                2 (hv)
+           1146 LOAD_CONST              96 (45)
+           1148 BINARY_SUBSCR
+           1158 FORMAT_VALUE             0
+           1160 LIST_APPEND              1
+           1162 LOAD_CONST              97 ('6100001131000539610000164100000C6100002d5100057062120000020')
+           1164 LIST_APPEND              1
+           1166 LOAD_FAST                2 (hv)
+           1168 LOAD_CONST              98 (46)
+           1170 BINARY_SUBSCR
+           1180 FORMAT_VALUE             0
+           1182 LIST_APPEND              1
+           1184 LOAD_CONST              99 ('6200001132000539620000164200000C6200002e5200056e63130000030')
+           1186 LIST_APPEND              1
+           1188 LOAD_FAST                2 (hv)
+           1190 LOAD_CONST             100 (47)
+           1192 BINARY_SUBSCR
+           1202 FORMAT_VALUE             0
+           1204 LIST_APPEND              1
+           1206 LOAD_CONST             101 ('6300001133000539630000164300000C6300002f5300055160100000000')
+           1208 LIST_APPEND              1
+           1210 LOAD_FAST                2 (hv)
+           1212 LOAD_CONST             102 (48)
+           1214 BINARY_SUBSCR
+           1224 FORMAT_VALUE             0
+           1226 LIST_APPEND              1
+           1228 LOAD_CONST             103 ('6000001130000539600000164000000C60000030500005a461110000010')
+           1230 LIST_APPEND              1
+           1232 LOAD_FAST                2 (hv)
+           1234 LOAD_CONST             104 (49)
+           1236 BINARY_SUBSCR
+           1246 FORMAT_VALUE             0
+           1248 LIST_APPEND              1
+           1250 LOAD_CONST             105 ('6100001131000539610000164100000C61000031510005bd62120000020')
+           1252 LIST_APPEND              1
+           1254 LOAD_FAST                2 (hv)
+           1256 LOAD_CONST             106 (50)
+           1258 BINARY_SUBSCR
+           1268 FORMAT_VALUE             0
+           1270 LIST_APPEND              1
+           1272 LOAD_CONST             107 ('6200001132000539620000164200000C6200003252000595')
+           1274 LIST_APPEND              1
+           1276 PRECALL                  1
+           1280 CALL                     1
+           1290 STORE_FAST               1 (cd)
+
+188        1292 BUILD_LIST               0
+           1294 STORE_FAST               3 (os)
+
+189        1296 LOAD_CONST               3 (0)
+           1298 STORE_FAST               4 (ct)
+
+190        1300 LOAD_GLOBAL              9 (NULL + range)
+           1312 LOAD_CONST               3 (0)
+           1314 LOAD_GLOBAL              1 (NULL + len)
+           1326 LOAD_FAST                1 (cd)
+           1328 PRECALL                  1
+           1332 CALL                     1
+           1342 LOAD_CONST              22 (8)
+           1344 PRECALL                  3
+           1348 CALL                     3
+           1358 GET_ITER
+        >> 1360 FOR_ITER                37 (to 1436)
+           1362 STORE_FAST               5 (i)
+
+191        1364 LOAD_FAST                3 (os)
+           1366 LOAD_METHOD              5 (append)
+           1388 LOAD_CONST             108 ('0x')
+           1390 LOAD_FAST                1 (cd)
+           1392 LOAD_FAST                5 (i)
+           1394 LOAD_FAST                5 (i)
+           1396 LOAD_CONST              22 (8)
+           1398 BINARY_OP                0 (+)
+           1402 BUILD_SLICE              2
+           1404 BINARY_SUBSCR
+           1414 BINARY_OP                0 (+)
+           1418 PRECALL                  1
+           1422 CALL                     1
+           1432 POP_TOP
+           1434 JUMP_BACKWARD           38 (to 1360)
+
+192     >> 1436 LOAD_GLOBAL              9 (NULL + range)
+           1448 LOAD_GLOBAL              1 (NULL + len)
+           1460 LOAD_FAST                3 (os)
+           1462 PRECALL                  1
+           1466 CALL                     1
+           1476 PRECALL                  1
+           1480 CALL                     1
+           1490 GET_ITER
+        >> 1492 FOR_ITER               121 (to 1736)
+           1494 STORE_FAST               5 (i)
+
+193        1496 LOAD_GLOBAL             13 (NULL + int)
+           1508 LOAD_FAST                3 (os)
+           1510 LOAD_FAST                5 (i)
+           1512 BINARY_SUBSCR
+           1522 LOAD_CONST              38 (16)
+           1524 PRECALL                  2
+           1528 CALL                     2
+           1538 STORE_FAST               6 (o)
+
+194        1540 LOAD_FAST                6 (o)
+           1542 LOAD_CONST               3 (0)
+           1544 COMPARE_OP               4 (>)
+           1550 POP_JUMP_FORWARD_IF_FALSE    56 (to 1664)
+           1552 LOAD_FAST                6 (o)
+           1554 LOAD_CONST              38 (16)
+           1556 LOAD_FAST                0 (self)
+           1558 LOAD_ATTR                7 (sz)
+           1568 BINARY_OP                8 (**)
+           1572 LOAD_CONST               8 (1)
+           1574 BINARY_OP               10 (-)
+           1578 COMPARE_OP               1 (<=)
+           1584 POP_JUMP_FORWARD_IF_FALSE    39 (to 1664)
+
+195        1586 LOAD_FAST                6 (o)
+           1588 LOAD_FAST                0 (self)
+           1590 LOAD_ATTR                7 (sz)
+           1600 LOAD_CONST               8 (1)
+           1602 BINARY_OP               10 (-)
+           1606 LOAD_CONST              14 (4)
+           1608 BINARY_OP                5 (*)
+           1612 BINARY_OP                9 (>>)
+           1616 STORE_FAST               7 (op)
+
+196        1618 LOAD_GLOBAL             17 (NULL + ino)
+           1630 LOAD_FAST                7 (op)
+           1632 BINARY_SUBSCR
+           1642 LOAD_FAST                0 (self)
+           1644 LOAD_FAST                6 (o)
+           1646 PRECALL                  2
+           1650 CALL                     2
+           1660 POP_TOP
+           1662 JUMP_FORWARD            15 (to 1694)
+
+198     >> 1664 LOAD_GLOBAL              5 (NULL + exit)
+           1676 LOAD_CONST               3 (0)
+           1678 PRECALL                  1
+           1682 CALL                     1
+           1692 POP_TOP
+
+199     >> 1694 LOAD_FAST                4 (ct)
+           1696 LOAD_GLOBAL             18 (v)
+           1708 LOAD_ATTR               10 (r)
+           1718 LOAD_ATTR               11 (fs)
+           1728 BINARY_OP               13 (+=)
+           1732 STORE_FAST               4 (ct)
+           1734 JUMP_BACKWARD          122 (to 1492)
+
+200     >> 1736 LOAD_FAST                4 (ct)
+           1738 LOAD_CONST             109 (401)
+           1740 COMPARE_OP               2 (==)
+           1746 POP_JUMP_FORWARD_IF_FALSE    17 (to 1782)
+
+201        1748 LOAD_GLOBAL              3 (NULL + print)
+           1760 LOAD_CONST             110 ('Correct!')
+           1762 PRECALL                  1
+           1766 CALL                     1
+           1776 POP_TOP
+           1778 LOAD_CONST               0 (None)
+           1780 RETURN_VALUE
+
+203     >> 1782 LOAD_GLOBAL              3 (NULL + print)
+           1794 LOAD_CONST               2 ('Wrong!')
+           1796 PRECALL                  1
+           1800 CALL                     1
+           1810 POP_TOP
+           1812 LOAD_CONST               0 (None)
+           1814 RETURN_VALUE
+
+Disassembly of <code object <listcomp> at 0x7f57beed6bf0, file "proc.py", line 186>:
+186           0 RESUME                   0
+              2 BUILD_LIST               0
+              4 LOAD_FAST                0 (.0)
+        >>    6 FOR_ITER                57 (to 122)
+              8 STORE_FAST               1 (i)
+             10 LOAD_GLOBAL              1 (NULL + hex)
+             22 LOAD_GLOBAL              3 (NULL + ord)
+             34 LOAD_FAST                1 (i)
+             36 PRECALL                  1
+             40 CALL                     1
+             50 PRECALL                  1
+             54 CALL                     1
+             64 LOAD_CONST               0 (2)
+             66 LOAD_CONST               1 (None)
+             68 BUILD_SLICE              2
+             70 BINARY_SUBSCR
+             80 LOAD_METHOD              2 (zfill)
+            102 LOAD_CONST               2 (5)
+            104 PRECALL                  1
+            108 CALL                     1
+            118 LIST_APPEND              2
+            120 JUMP_BACKWARD           58 (to 6)
+        >>  122 RETURN_VALUE
