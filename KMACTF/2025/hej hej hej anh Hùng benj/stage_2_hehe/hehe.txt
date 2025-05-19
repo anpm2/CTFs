@@ -1,0 +1,57 @@
+Host Name:                 DESKTOP-NEU8R5D
+OS Name:                   Microsoft Windows 10 Enterprise
+OS Version:                10.0.19045 N/A Build 19045
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          vnd
+Registered Organization:
+Product ID:                00329-00000-00003-AA061
+Original Install Date:     3/12/2025, 12:05:26 PM
+System Boot Time:          4/19/2025, 5:47:08 AM
+System Manufacturer:       VMware, Inc.
+System Model:              VMware7,1
+System Type:               x64-based PC
+Processor(s):              2 Processor(s) Installed.
+                           [01]: Intel64 Family 6 Model 141 Stepping 1 GenuineIntel ~2688 Mhz
+                           [02]: Intel64 Family 6 Model 141 Stepping 1 GenuineIntel ~2688 Mhz
+BIOS Version:              VMware, Inc. VMW71.00V.18452719.B64.2108091906, 8/9/2021
+Windows Directory:         C:\Windows
+System Directory:          C:\Windows\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             en-us;English (United States)
+Input Locale:              en-us;English (United States)
+Time Zone:                 (UTC-08:00) Pacific Time (US & Canada)
+Total Physical Memory:     2,047 MB
+Available Physical Memory: 393 MB
+Virtual Memory: Max Size:  5,360 MB
+Virtual Memory: Available: 1,168 MB
+Virtual Memory: In Use:    4,192 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\DESKTOP-NEU8R5D
+Hotfix(s):                 11 Hotfix(s) Installed.
+                           [01]: KB5054978
+                           [02]: KB5056578
+                           [03]: KB5049613
+                           [04]: KB5011048
+                           [05]: KB5015684
+                           [06]: KB5055518
+                           [07]: KB5014032
+                           [08]: KB5028380
+                           [09]: KB5050111
+                           [10]: KB5052916
+                           [11]: KB5054682
+Network Card(s):           2 NIC(s) Installed.
+                           [01]: Intel(R) 82574L Gigabit Network Connection
+                                 Connection Name: Ethernet0
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     192.168.68.254
+                                 IP address(es)
+                                 [01]: 192.168.68.144
+                                 [02]: fe80::6fa8:5416:6323:625e
+                           [02]: Bluetooth Device (Personal Area Network)
+                                 Connection Name: Bluetooth Network Connection
+                                 Status:          Media disconnected
+Hyper-V Requirements:      A hypervisor has been detected. Features required for Hyper-V will not be displayed.
+Volume Serial Number: 	   6CCF-75D6
